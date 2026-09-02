@@ -32,7 +32,8 @@ test {
     finalizedBy jacocoTestReport
 }
 
-task jmh(type: JavaExec, dependsOn: 'jmhClasses') {
+tasks.register('jmh', JavaExec) {
+    dependsOn 'jmhClasses'
     mainClass = 'org.openjdk.jmh.Main'
     classpath = sourceSets.jmh.runtimeClasspath
     args 'CompressedTrie.CustomCompressedTriePerformanceTest'
