@@ -31,7 +31,6 @@ To build and test the project run command `./gradlew clean build`
 
 | Method                               |               V1               |        V2 (Compressed)         | Winner  |
 |:-------------------------------------|:------------------------------:|:------------------------------:|:-------:|
-| **Overall Structure Storage (Heap)** |             $O(S)$             |           $O(N + S)$           | **V2**  |
 | `Constructor()`                      |             $O(1)$             |             $O(1)$             | **Tie** |
 | `Constructor(List<String>)`          |             $O(1)$             |         $O(L_{\max})$          | **V1**  |
 | `Constructor(String[])`              |             $O(1)$             |         $O(L_{\max})$          | **V1**  |

@@ -1,4 +1,0 @@
-package CompressedTrie.jmh_generated;
-public class CustomCompressedTriePerformanceTest_MutatingState_jmhType extends CustomCompressedTriePerformanceTest_MutatingState_jmhType_B3 {
-}
-
