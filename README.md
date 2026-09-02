@@ -10,22 +10,22 @@ To build and test the project run command `./gradlew clean build`
 
 # Time Complexity
 
-| Method                      |                        V1                        |                 V2 (Compressed)                  | Winner  |
-|:----------------------------|:------------------------------------------------:|:------------------------------------------------:|:--------|
-| `Constructor()`             |                      $O(1)$                      |                      $O(1)$                      | **Tie** |
-| `Constructor(List<String>)` |                $O(W \log \Sigma)$                |                $O(W \log \Sigma)$                | **Tie** |
-| `Constructor(String[])`     |                $O(W \log \Sigma)$                |                $O(W \log \Sigma)$                | **Tie** |
-| `Constructor(Trie)`         |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie** |
-| `clear()`                   |                      $O(1)$                      |                      $O(1)$                      | **Tie** |
-| `delete(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie** |
-| `equals(Object)`            |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie** |
-| `hashCode()`                |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie** |
-| `insert(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie** |
-| `isEmpty()`                 |                      $O(1)$                      |                      $O(1)$                      | **Tie** |
-| `search(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie** |
-| `size()`                    |                      $O(1)$                      |                      $O(1)$                      | **Tie** |
-| `startsWith(String)`        | $O(P \log \Sigma + L_{\text{out}} \log \Sigma)$  | $O(P \log \Sigma + L_{\text{out}} \log \Sigma)$  | **Tie** |
-| `toString()`                |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie** |
+| Method                      |                        V1                        |                 V2 (Compressed)                  |  Winner  |
+|:----------------------------|:------------------------------------------------:|:------------------------------------------------:|:--------:|
+| `Constructor()`             |                      $O(1)$                      |                      $O(1)$                      | **Tie**  |
+| `Constructor(List<String>)` |                $O(W \log \Sigma)$                |                $O(W \log \Sigma)$                | **Tie**  |
+| `Constructor(String[])`     |                $O(W \log \Sigma)$                |                $O(W \log \Sigma)$                | **Tie**  |
+| `Constructor(Trie)`         |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie**  |
+| `clear()`                   |                      $O(1)$                      |                      $O(1)$                      | **Tie**  |
+| `delete(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie**  |
+| `equals(Object)`            |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie**  |
+| `hashCode()`                |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie**  |
+| `insert(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie**  |
+| `isEmpty()`                 |                      $O(1)$                      |                      $O(1)$                      | **Tie**  |
+| `search(String)`            |                $O(L \log \Sigma)$                |                $O(L \log \Sigma)$                | **Tie**  |
+| `size()`                    |                      $O(1)$                      |                      $O(1)$                      | **Tie**  |
+| `startsWith(String)`        | $O(P \log \Sigma + L_{\text{out}} \log \Sigma)$  | $O(P \log \Sigma + L_{\text{out}} \log \Sigma)$  | **Tie**  |
+| `toString()`                |                $O(S \log \Sigma)$                |                $O(S \log \Sigma)$                | **Tie**  |
 
 # Space Complexity
 
