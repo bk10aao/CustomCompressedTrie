@@ -2,7 +2,7 @@
 
 An implementation of a compressed Prefix-Trie.
 
-*For the standard, non-compressed implementation, see [CustomTrie](https://github.com/bk10aao/CustomTrie).*
+*For the standard, non-compressed implementation, see [Custom Trie](https://github.com/bk10aao/CustomTrie).*
 
 # Build and Test
 
